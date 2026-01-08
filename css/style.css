@@ -23,23 +23,25 @@
   cursor: pointer;
 }
 
-.section-headung{
+.section-heading{
    text-align: center;
+   margin: 0 auto;
   
 }
-.section-headung h2{
+.section-heading h2{
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 30px;
     color: #181818;
 }
 
-.section-headung p{
+.section-heading p{
     font-size:18px;
     max-width: 827px;
     margin-bottom: 30px;
     color: #757575;
     line-height: 30px;
+    margin: 0 auto;
 }
 
 /* shear style  */
@@ -149,4 +151,42 @@ nav .menu a{
     font-size: 20px;
     font-weight: bold;
     color: #474747;
+}
+
+#skill{
+    padding-top: 130px;
+}
+
+.skill-info{
+    margin: 0 auto;
+    width: 71%;
+    max-width: 1140px;
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+
+.skill-cerd{
+    max-width: 267px;
+    /* border: 1px solid red; */
+    box-shadow: 0 6px 50px 0 #00000015;
+    padding: 30px;
+    border-radius: 5px;
+   
+}
+
+.skill-cerd img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-cerd h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.skill-cerd p{
+    font-size: 18px;
+    color: #757575;
 }
