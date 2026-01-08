@@ -23,6 +23,28 @@
   cursor: pointer;
 }
 
+.section-headung{
+   text-align: center;
+  
+}
+.section-headung h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #181818;
+}
+
+.section-headung p{
+    font-size:18px;
+    max-width: 827px;
+    margin-bottom: 30px;
+    color: #757575;
+    line-height: 30px;
+}
+
+/* shear style  */
+
+
 header{
     /* background-color: #FFF8F3; */
     background: url(../images/developer.png) , url(../images/header_bg.png) , #FFF8F3;
@@ -97,4 +119,34 @@ nav .menu a{
 #banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+
+#about{
+    padding-top: 130px;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#about .about-container{
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+    text-align: center;
+}
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around
+}
+
+#about .about-container .about-info .info-cerd p{
+    color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#about .about-container .about-info .info-cerd h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
 }
